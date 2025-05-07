@@ -1,0 +1,63 @@
+# =========================
+# 🚫 Dependências
+# =========================
+node_modules/
+
+# =========================
+# ⚙️ Arquivos de build/output
+# =========================
+dist/
+build/
+
+# =========================
+# 🔒 Variáveis de ambiente
+# =========================
+.env
+.env.*
+
+# =========================
+# 📝 Arquivos de log
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# 🧠 Cache e temporários
+# =========================
+.cache/
+.vite/
+.tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# =========================
+# 🧪 Testes
+# =========================
+coverage/
+
+# =========================
+# 💻 Configurações de editores
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# 💾 Arquivos do sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔧 Arquivos HTML temporários (opcional)
+# =========================
+dashboard.html
+index.html
+node_modules
